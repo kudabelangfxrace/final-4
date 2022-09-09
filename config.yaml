@@ -1,6 +1,6 @@
 # miner名称，不填使用电脑名
 # miner name, use the computer name without filling in
-minerName: "3080ti"
+minerName: "2080tix4-1"
 # 在 https://www.hpool.in/center/configuration 找ApiKey
 # Find ApiKey at https://www.hpool.in/center/configuration
 apiKey: "ironfish-52a4-44cf-9317-9b1b6be1e298"
@@ -45,7 +45,7 @@ extraParams:
   enableGPU: 1
   # GPU设备编号
   # GPU device number
-  gpuDevice: 0
+  gpuDevice: 0,1,2,3
   # 一次计算个数, 默认 10240000
   # Calculate the number at a time, the default is 10240000
   gpuBatchCount: 10240000
